@@ -20,13 +20,17 @@
 	color: #FFFFFF;
 	font-family: 'Jost';
 	font-style: normal;
-	padding: 16px;
+	padding: 0;
 }
 
 .chapter h1 {
 	font-weight: 500;
 	font-size: 22px;
 	line-height: 32px;
+	padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 .margin-chapter {
@@ -64,6 +68,7 @@
 
 .menu-items {
 	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 .item-setting {
@@ -74,4 +79,21 @@
 	font-family: 'Jost';
 	font-style: normal;
 	height: 56px;
+	padding: 16px;
+	transition: background-color 0.1s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.item-setting:active {
+	background-color: #404348;
+  }
+
+  .item-setting-with-toggle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #FFFFFF;
+	font-family: 'Jost';
+	font-style: normal;
+	height: 56px;
+	padding: 16px;
 }

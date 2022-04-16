@@ -1,6 +1,7 @@
 let slide1 = document.querySelector("#slide1"),
   slide2 = document.querySelector("#slide2"),
   slide3 = document.querySelector("#slide3"),
+  slide4 = document.querySelector("#slide4"),
   s1b = document.querySelector("#s1b"),
   s2b1 = document.querySelector("#s2b1"),
   s2b2 = document.querySelector("#s2b2"),

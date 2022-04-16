@@ -173,6 +173,11 @@
 	margin-left: 15px;
 }
 
+.account-icon:active {
+	transform: scale(1.2);
+	transition: 0.1s ease-in-out;
+}
+
 .search {
 	background-color: #393c42;
 	width: 299px;
@@ -259,7 +264,7 @@ input::-moz-placeholder {
 	flex-direction: column;
 	align-items: center;
 	position: fixed;
-	transition: 0s ease-in-out;
+	transition: 0.2s cubic-bezier(0.5, 1, 0.89, 1);
 	box-shadow: 0 0 10px rgb(0 0 0 / 50%);
 	margin-bottom: calc(100vh - 688px);
 }
